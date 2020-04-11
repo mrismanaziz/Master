@@ -6,6 +6,7 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2@2.0.0/dist/spectrum.min.css">
+	  
 	  <style type="text/css">
 	  	body{
 	  		overflow: hidden;
@@ -511,10 +512,10 @@
 			}
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#4c1130"){
-					setTimeout(function() { createNote("Mangat Din ngepush course javascriptnya :v"); }, 5000);
+					setTimeout(function() { createNote("Kamu Mau Ga Jadi Pacar Aku ?"); }, 5000);
 				}
 				else if(localStorage.getItem("manualColor")=="#000000"){
-					setTimeout(function() { createNote("Buat belajar bro, bukan buat neko neko :v"); }, 5000);
+					setTimeout(function() { createNote("Kamu Mau Ga Jadi Pacar Aku ?"); }, 5000);
 				}
 			}
 			function createNote(isi){
@@ -527,7 +528,7 @@
 				setTimeout(function() { writeNote(isi); }, 3000);
 			}
 			function writeNote(isi){
-				$(".note").text(isi).css("opacity","1");
+				$(".note").text(isi).css("opacity","1").css("font-size","30pt");
 
 				baffle('.note')
 					.reveal(2000)
@@ -985,32 +986,32 @@
 			    "source": "Andika Sujanadi"
 			  },
 			  {
+			    "quote": "Seberat apapun Masalahmu, Ceritalah Kepadaku",
+			    "source": "Muhamad Risman Aziz"
+			  },
+			  {
 			    "quote": "Semesta memiliki alurnya masing-masing",
 			    "source": "Andika Sujanadi"
 			  },
 			  {
-			    "quote": "You don't lose, You learn",
-			    "source": "Andika Sujanadi"
+			    "quote": "Dunia Milik kita berdua, Yang lain cuman Ngontrak",
+			    "source": "Muhamad Risman Aziz"
 			  },
 			  {
 			    "quote": "I own my own life and my own decission",
 			    "source": "Andika Sujanadi"
 			  },
 			  {
-			    "quote": "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them",
-			    "source": "Andika Sujanadi"
+			    "quote": "Entah mana yang lebih menyakitkan Kehilanganmu atau melihat mu menyayanginya",
+			    "source": "Muhamad Risman Aziz"
 			  },
 			  {
 			    "quote": "Masa lalu dan frustasi merupakan fondasi dasar untuk menciptakan kembali kehidupan baru yang lebih baik",
 			    "source": "Anthony Robbins"
 			  },
 			  {
-			    "quote": "Ada kalimat yang ingin aku dapatkan dari dia tapi aku dapat dari orang lain",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "People doesn't want to end their life, they just wanted to end the pain",
-			    "source": "Andika Sujanadi"
+			    "quote": "Ruang dan waktu membatasi gerakku, tapi tidak logikaku dalam mencintaimu",
+			    "source": "Muhamad Risman Aziz"
 			  },
 			  {
 			    "quote": "Need someone to talk about life, but sitting alone is much better",
@@ -1054,5 +1055,6 @@
 			}
 			typeWriter();
 		</script>
+		<script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
 	</body>
 </html>
